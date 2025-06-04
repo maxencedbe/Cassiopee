@@ -22,4 +22,4 @@ colonnes_afficher = [
 print(df_top10[colonnes_afficher])
 
 # Sauvegarder dans un fichier Excel
-df_top10.to_excel("10_communes_moins_inscrits.xlsx", index=False)
+df_top10.to_excel("elections/10_communes_moins_inscrits.xlsx", index=False)

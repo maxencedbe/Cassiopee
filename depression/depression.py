@@ -7,7 +7,6 @@ df = pd.read_csv(file_path)
 
 quasi_identifiants = ["Gender", "Age", "City", "Profession", "Degree"]
 
-
 filtered_df = df[df["Have you ever had suicidal thoughts ?"] == "Yes"]
 
 rare_combinations = filtered_df.groupby(quasi_identifiants).size().reset_index(name='count')
@@ -67,11 +66,11 @@ html_content += """
 """
 
 # Sauvegarder le fichier HTML
-with open("result.html", "w", encoding="utf-8") as f:
+with open("depression/result.html", "w", encoding="utf-8") as f:
     f.write(html_content)
 
 # Ouvrir la page HTML dans le navigateur
-webbrowser.open("result.html")
+webbrowser.open("depression/result.html")
 
 # Calculer la part des profils uniques dans la base filtrée
 total_cases = len(filtered_df)
