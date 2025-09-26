@@ -1,4 +1,4 @@
-# Cassiopeia Project n°53  
+# Cassiopee Project 
 **Evaluation of anonymized databases regarding privacy risks using OSINT (Open Source Intelligence) sources**
 
 ## Overview
