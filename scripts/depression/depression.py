@@ -2,7 +2,7 @@ import pandas as pd
 import webbrowser
 import urllib.parse
 
-file_path = "depression/Student Depression Dataset.csv"
+file_path = "data/depression/Student Depression Dataset.csv"
 df = pd.read_csv(file_path)
 
 quasi_identifiants = ["Gender", "Age", "City", "Profession", "Degree"]
@@ -14,7 +14,6 @@ rare_combinations['risk_score'] = rare_combinations['count'].apply(lambda x: 1 /
 
 unique_profiles = rare_combinations[rare_combinations['risk_score'] == 1.0]
 
-# Création de la page HTML pour afficher les profils
 html_content = """
 <html>
 <head>
@@ -42,7 +41,6 @@ html_content = """
         </tr>
 """
 
-# Générer une ligne HTML pour chaque profil
 for index, row in unique_profiles.iterrows():
     query = f"{row['Age']} ans {row['City']} {row['Profession']} {row['Degree']} {row['Gender']} LinkedIn"
     query_encoded = urllib.parse.quote(query)
@@ -65,14 +63,11 @@ html_content += """
 </html>
 """
 
-# Sauvegarder le fichier HTML
-with open("depression/result.html", "w", encoding="utf-8") as f:
+with open("results/depression.html", "w", encoding="utf-8") as f:
     f.write(html_content)
 
-# Ouvrir la page HTML dans le navigateur
-webbrowser.open("depression/result.html")
+webbrowser.open("results/depression/depression.html")
 
-# Calculer la part des profils uniques dans la base filtrée
 total_cases = len(filtered_df)
 unique_cases = len(unique_profiles)
 
