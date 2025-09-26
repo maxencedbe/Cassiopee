@@ -1,5 +1,5 @@
 # Cassiopee Project 
-**Evaluation of anonymized databases regarding privacy risks using OSINT (Open Source Intelligence) sources**
+**Evaluation of anonymized databases regarding privacy risks using OSINT (Open Source Intelligence) sources.**
 
 ## Overview
 This repository contains the final report of the **Cassiopeia project**, carried out between January and June 2025.  
