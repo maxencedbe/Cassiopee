@@ -11,7 +11,7 @@ The objective of the project is to assess the risk of re-identification in anony
 
 Supervised by:
 - Maryline LAURENT
-- Louis Philippe SONDECK
+- Louis-Philippe SONDECK
 
 ## Repository structure
 - `Rapport Cassiopée.pdf` : final project report (in French).
