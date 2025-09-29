@@ -1,4 +1,4 @@
-# Cassiopee Project
+# Project Cassiopee
 **Evaluation of anonymized databases regarding privacy risks using OSINT (Open Source Intelligence) sources.**
 
 ## Overview
