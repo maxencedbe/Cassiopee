@@ -47,4 +47,3 @@ developed by Maxence DEBES and Vadim HEMZELLEC-DAVIDSON,
 based on an idea by Louis-Philippe SONDECK and Maryline LAURENT, 2025.
 
 Distributed under the **CC BY 4.0 license**.
-→ [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/)
