@@ -16,9 +16,8 @@ Supervised by:
 ## Repository structure
 - `Rapport Cassiopée.pdf` : final project report (in French).
 - `data/` : synthetic datasets used for testing.
+- `results/` : results of the study.
 - `scripts/` : Python scripts for analysis and demonstrations.
-- `figures/` : illustrations and diagrams from the report.
-- `references/` : bibliography and additional resources.
 
 ## Details of directories and scripts
 
