@@ -2,7 +2,7 @@
 **Evaluation of anonymized databases regarding privacy risks using OSINT (Open Source Intelligence) sources.**
 
 ## Overview
-This repository contains the final report of the **Cassiopeia project**, carried out between January and June 2025.
+This repository contains the final report of the **Cassiopee Project**, carried out between January and June 2025.
 The objective of the project is to assess the risk of re-identification in anonymized databases by exploiting **OSINT** (Open Source Intelligence) sources.
 
 ## Authors
