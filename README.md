@@ -37,7 +37,6 @@ Supervised by:
   Contains the outputs produced by running the scripts.
   - `results/elections/` → processed Excel files with subsets of election data.
   - `results/depression/depression.html` → HTML page displaying unique profiles and simulated re-identification risks.
----
 
 ## Notes
 All data used in this project is **synthetic or anonymized** in order to comply with confidentiality and regulatory requirements (GDPR).
